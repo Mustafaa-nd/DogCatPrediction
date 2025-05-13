@@ -17,7 +17,7 @@ model.eval()
 processor = AutoImageProcessor.from_pretrained("google/mobilenet_v2_1.0_224")
 
 # Interface Streamlit
-st.title("🐾 Prédiction d'Image : Chat ou Chien (Modèle Fine-tuné)")
+st.title(" Prédiction d'image : Chat ou Chien")
 st.write("Téléversez une image pour obtenir la prédiction.")
 
 uploaded_file = st.file_uploader("Choisissez une image", type=["jpg", "jpeg", "png"])
